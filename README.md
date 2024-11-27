@@ -49,6 +49,7 @@ Database: inventory
 Username: admin
 Password: lab-password
 Save the configuration. The details will be securely stored in AWS Secrets Manager.
+
 Task 3: Verifying Database and Application Integration
 Use the web application to add, edit, and delete inventory records.
 Add at least five records to verify the interaction between the application and the database.
