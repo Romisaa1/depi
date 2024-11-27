@@ -54,11 +54,13 @@ Task 3: Verifying Database and Application Integration
 Use the web application to add, edit, and delete inventory records.
 Add at least five records to verify the interaction between the application and the database.
 Confirm that data persists across application sessions to validate successful integration.
-Key Notes
+
+Key Notes:
 The database connection credentials are managed using AWS Secrets Manager to avoid hardcoding sensitive details into the application.
 Always wait for the RDS database status to change to Available before attempting to connect it to the web application.
 Ensure that the correct security group (DB-SG) is attached to the RDS instance to allow communication with the EC2 instance.
-Completion Criteria
+
+Completion Criteria:
 The web application is successfully connected to the RDS database.
 Inventory records can be added, edited, and deleted through the application.
 Data persists across sessions, verifying the integration.
